@@ -4,25 +4,25 @@ A powerful, agentic conversational AI chatbot built with LangGraph, Streamlit, a
 
 ## Features
 
-✨ **Agentic Architecture** - Leverages LangGraph's StateGraph for intelligent multi-step reasoning and tool execution
+ **Agentic Architecture** - Leverages LangGraph's StateGraph for intelligent multi-step reasoning and tool execution
 
 🔧 **Built-in Tools**:
 - **Web Search** - Real-time information retrieval using DuckDuckGo
 - **Stock Price Lookup** - Fetch current stock prices via Alpha Vantage API
 - **Calculator** - Perform arithmetic operations (add, subtract, multiply, divide)
 
-💬 **Conversation Management**:
+**Conversation Management**:
 - Multiple concurrent conversations with unique thread IDs
 - Persistent storage using SQLite
 - Automatic conversation titles based on first user message
 - Easy switching between conversation threads
 
-🎨 **Interactive UI** - Streamlit-based frontend with:
+ **Interactive UI** - Streamlit-based frontend with:
 - Real-time message streaming
 - Sidebar navigation for conversation history
 - Clean chat interface with message history
 
-📝 **Intelligent Message Handling**:
+**Intelligent Message Handling**:
 - Support for complex message structures
 - Stream-based response generation
 - Automatic content parsing
